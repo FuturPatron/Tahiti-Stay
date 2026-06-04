@@ -1,0 +1,17 @@
+# 1. Initialiser Git
+git init
+
+# 2. Ajouter tous les fichiers
+git add .
+
+# 3. Faire le premier commit
+git commit -m "MVP TahitiStay - Version finale prête au déploiement"
+# 4. Ajouter le remote GitHub (remplace par ton URL)
+git remote add origin https://github.com/tonusername/tahitistay.git
+
+# 5. Pousser sur GitHub
+git branch -M main
+git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/tonusername/tahitistay.git
+git push -u origin main
